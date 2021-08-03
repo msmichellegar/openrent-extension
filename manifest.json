@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "OpenRent Helper",
+    "version": "0.1",
+    
+    "browser_action": {
+      "default_icon": "images/icon.png",
+      "default_popup": "html/index.html",
+      "default_title": "Sort OpenRent listings"
+    },
+
+    "content_scripts": [
+      {
+          "matches": [
+            "*://*.openrent.co.uk/*"
+          ],
+          "js": ["thirdparty/jquery-3.6.0.min.js", "scripts/index.js"]
+      }
+    ]
+  }
