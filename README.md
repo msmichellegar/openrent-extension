@@ -1,6 +1,6 @@
 # OpenRent Extension
 
-Have you ever flat-searched in the UK and been extremely annoyed at the inability to sort properties by most recently listed on OpenRent? Be frustrated no more. I made a Chrome extension.
+Have you ever flat-searched in the UK and been frustrated at the inability to sort properties by most recently listed on OpenRent? Be frustrated no more. I made a Chrome extension for that.
 
 Install this extension, and when you view a listings page on OpenRent, it will automatically scroll down the page to load all results, and then sort the properties starting with the most recently listed. It'll take about 10-15 seconds.
 
